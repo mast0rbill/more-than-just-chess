@@ -1,0 +1,22 @@
+MTJCUnity/Library/
+MTJCUnity/Temp/
+MTJCUnity/obj/
+MTJCUnity/.vscode
+MTJCUnity/Server Files/
+MTJCUnity/Bolt_DebugStart_Build/
+*.vs
+*.svd
+*.pidb
+*.booproj
+*.unityproj
+*.sln
+*.db
+*.suo
+*.csproj
+*.booproj
+*.stackdump
+*.pre
+*.blend1
+*.blend1.meta
+*.meta.orig
+*.meta.orig.meta

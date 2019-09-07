@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1549400956078120}
+  m_IsPrefabParent: 1
+--- !u!1 &1549400956078120
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4204024945133528}
+  - component: {fileID: 114254476467672728}
+  m_Layer: 0
+  m_Name: Master Database
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4204024945133528
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1549400956078120}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114254476467672728
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1549400956078120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1d4ff518ef65e84c97d5eb6b0c22575, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gamePieceVisualsWhite:
+  - {fileID: 1622935370564368, guid: 149869a854acb044fb9ec0933e055351, type: 2}
+  - {fileID: 1002546301236536, guid: a3b36a3036c80ea41a1f62414c0839c7, type: 2}
+  - {fileID: 1977914198439828, guid: 7871e70f3c9e9f44f9d811e1fdad3f11, type: 2}
+  - {fileID: 1107081966508582, guid: 78ba3d29931e2494a9708c18fffed23a, type: 2}
+  - {fileID: 1492014222474334, guid: 6a256601646cbfc4f958233f0cf3c58d, type: 2}
+  - {fileID: 1130755931636962, guid: b17ed28431b56894fa4ccd9370a96a90, type: 2}
+  gamePieceVisualsBlack:
+  - {fileID: 1622935370564368, guid: 048f69f15c0eb4d42838b486fe548bc1, type: 2}
+  - {fileID: 1002546301236536, guid: 707fba46b18eb65489d880760637d552, type: 2}
+  - {fileID: 1977914198439828, guid: 6f44db1de7adf894dbd578f998cb226d, type: 2}
+  - {fileID: 1107081966508582, guid: a94f9c2ae11e5c749b57443a0cb4859f, type: 2}
+  - {fileID: 1492014222474334, guid: 25090a73ec368544ca0702fab11a8808, type: 2}
+  - {fileID: 1130755931636962, guid: 1f3f14227dd4e7542982cc411188947f, type: 2}
